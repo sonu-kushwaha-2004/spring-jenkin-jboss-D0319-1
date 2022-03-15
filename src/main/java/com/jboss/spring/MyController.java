@@ -24,7 +24,7 @@ public class MyController {
 		 log.debug("Hello this is a debug message");  
 	      log.info("Hello this is an info message");  
 		
-		return "/WEB-INF/views/NewFile.html";
+		return "Welcome Back !";
 		
 	}
 
