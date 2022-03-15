@@ -1,0 +1,20 @@
+package com.jboss.spring;
+
+import org.apache.log4j.Logger;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringJbossApplication {
+	
+	private static Logger log = Logger.getLogger(MyController.class);
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringJbossApplication.class, args);
+		log.info("info");
+		log.debug("debug");
+		log.error("error");
+		log.fatal("fetal");
+	}
+
+}
