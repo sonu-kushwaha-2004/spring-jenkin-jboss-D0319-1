@@ -15,7 +15,7 @@ public class MyController {
 		 log.debug("Hello this is a debug message");  
 	      log.info("Hello this is an info message");  
 		
-		return "Hello, Application is running on JBOSS EAP 7.2";
+		return "Hello, All !";
 		
 	}
 	
