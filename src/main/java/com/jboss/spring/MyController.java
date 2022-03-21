@@ -24,7 +24,7 @@ public class MyController {
 		 log.debug("Hello this is a debug message");  
 	      log.info("Hello this is an info message");  
 		
-		return "Great, You did it !!";
+		return "Welcome to the world of automation !!";
 		
 	}
 
