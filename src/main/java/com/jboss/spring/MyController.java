@@ -26,7 +26,8 @@ public class MyController {
 	@RequestMapping("/hello")
 	public String sayHello() {
 		 log.debug("Hello this is a debug message");  
-	      log.info("Hello this is an info message");  
+	      log.info("Hello this is an info message"); 
+	      String str= System.getProperty("FIRST");
 		
 		return "Hello, All !";
 		
@@ -37,7 +38,8 @@ public class MyController {
 		 log.debug("Hello this is a debug message");  
 	      log.info("Hello this is an info message");  
 		
-		return "This about to implementation of log4j2..!!";
+	      String str= System.getProperty("FIRST");
+		return str;
 		
 	}
 
