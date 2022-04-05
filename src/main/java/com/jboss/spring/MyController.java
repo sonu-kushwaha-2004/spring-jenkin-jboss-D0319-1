@@ -16,7 +16,8 @@ public class MyController {
 	
 	static {
 		try {
-			PropertyConfigurator.configure(System.getProperty("FIRST")+File.separator+"java"+File.separator+"log4j.properties");
+			//PropertyConfigurator.configure(System.getProperty("FIRST")+File.separator+"java"+File.separator+"log4j.properties");
+			PropertyConfigurator.configure("E:\\Log\\java\\log4j.properties");
 			
 		} catch (Exception e) {
 			e.printStackTrace();
