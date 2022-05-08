@@ -1,18 +1,22 @@
 package com.jboss.spring;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.io.File;
 
-import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
+//import org.apache.log4j.Logger;
+//import org.apache.log4j.PropertyConfigurator;
 
 
 @RestController
 public class MyController {
 	
-	private  static  final Logger log = Logger.getLogger(MyController.class);
+	//private  static  final Logger log = Logger.getLogger(MyController.class);
+	
+	private static final Logger log = LogManager.getLogger(MyController.class);
 	
 //	static {
 //		try {
